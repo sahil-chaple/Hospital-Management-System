@@ -1,0 +1,26 @@
+$kind: http-request
+url: http://localhost:8000/api/patients/8ffe8428-0993-4937-b9f2-964e9544e094
+method: DELETE
+auth:
+  type: bearer
+  credentials:
+    token: "{{supabase_service_role_api_key_0tvd}}"
+scripts:
+  - type: afterResponse
+    code: "pm.test(\"Status code is 200\", function () {\r
+
+      \    pm.response.to.have.status(200);\r
+
+      });\r
+
+      \r
+
+      pm.test(\"Patient deleted successfully\", function () {\r
+
+      \    const jsonData = pm.response.json();\r
+
+      \    pm.expect(jsonData.message).to.eql(\"Patient deleted successfully\");\r
+
+      });"
+    language: text/javascript
+order: 4007499984367150

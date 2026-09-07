@@ -1,0 +1,43 @@
+$kind: http-request
+url: http://localhost:8000/api/patients/1e6aa7ae-da99-486f-a54e-ddfac137955d
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Test User Updated\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{supabase_service_role_api_key_0tvd}}"
+scripts:
+  - type: afterResponse
+    code: "pm.test(\"Status code is 200\", function () {\r
+
+      \    pm.response.to.have.status(200);\r
+
+      });\r
+
+      \r
+
+      pm.test(\"Patient updated successfully\", function () {\r
+
+      \    const jsonData = pm.response.json();\r
+
+      \    pm.expect(jsonData.message).to.eql(\"Patient updated successfully\");\r
+
+      });\r
+
+      \r
+
+      pm.test(\"Updated patient name is correct\", function () {\r
+
+      \    const jsonData = pm.response.json();\r
+
+      \    pm.expect(jsonData.patient.name).to.eql(\"Test User Updated\");\r
+
+      });"
+    language: text/javascript
+order: 2967706702137091

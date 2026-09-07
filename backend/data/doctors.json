@@ -1,0 +1,52 @@
+{
+  "doctors": [
+    {
+      "id": "DOC001",
+      "doctorId": "DOCA1B2C3",
+      "name": "Dr. Sarah Johnson",
+      "specialization": "Cardiology",
+      "phone": "555-0101",
+      "email": "sarah.johnson@hms.com",
+      "department": "Cardiology",
+      "availability": "Mon-Fri 9AM-5PM",
+      "createdAt": "2026-08-12T00:00:00",
+      "updatedAt": "2026-08-12T00:00:00"
+    },
+    {
+      "id": "DOC002",
+      "doctorId": "DOCD4E5F6",
+      "name": "Dr. Michael Lee",
+      "specialization": "Neurology",
+      "phone": "555-0102",
+      "email": "michael.lee@hms.com",
+      "department": "Neurology",
+      "availability": "Mon-Fri 10AM-6PM",
+      "createdAt": "2026-08-12T00:00:00",
+      "updatedAt": "2026-08-12T00:00:00"
+    },
+    {
+      "id": "DOC003",
+      "doctorId": "DOGG7H8I9",
+      "name": "Dr. Emily Davis",
+      "specialization": "Pediatrics",
+      "phone": "555-0103",
+      "email": "emily.davis@hms.com",
+      "department": "Pediatrics",
+      "availability": "Tue-Sat 8AM-4PM",
+      "createdAt": "2026-08-12T00:00:00",
+      "updatedAt": "2026-08-12T00:00:00"
+    },
+    {
+      "id": "DOC004",
+      "doctorId": "DOCJ0K1L2",
+      "name": "Dr. James Wilson",
+      "specialization": "Orthopedics",
+      "phone": "555-0104",
+      "email": "james.wilson@hms.com",
+      "department": "Orthopedics",
+      "availability": "Mon-Fri 9AM-5PM",
+      "createdAt": "2026-08-12T00:00:00",
+      "updatedAt": "2026-08-12T00:00:00"
+    }
+  ]
+}

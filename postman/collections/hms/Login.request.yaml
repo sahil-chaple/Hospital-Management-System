@@ -1,0 +1,27 @@
+$kind: http-request
+url: http://localhost:8000/api/login
+method: POST
+body:
+  type: urlencoded
+  content:
+    username: admin@hms.com
+    password: admin123
+scripts:
+  - type: afterResponse
+    code: "pm.test(\"Status code is 200\", function () {\r
+
+      \    pm.response.to.have.status(200);\r
+
+      });\r
+
+      \r
+
+      pm.test(\"Response contains access token\", function () {\r
+
+      \    const jsonData = pm.response.json();\r
+
+      \    pm.expect(jsonData).to.have.property(\"access_token\");\r
+
+      });"
+    language: text/javascript
+order: 1788792354180

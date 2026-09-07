@@ -1,0 +1,49 @@
+$kind: http-request
+url: http://localhost:8000/api/patients
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Test User\",\r
+
+    \  \"age\": 30,\r
+
+    \  \"gender\": \"Male\",\r
+
+    \  \"phone\": \"555-9999\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{supabase_service_role_api_key_0tvd}}"
+scripts:
+  - type: afterResponse
+    code: "pm.test(\"Status code is 200\", function () {\r
+
+      \    pm.response.to.have.status(200);\r
+
+      });\r
+
+      \r
+
+      pm.test(\"Patient created successfully\", function () {\r
+
+      \    const jsonData = pm.response.json();\r
+
+      \    pm.expect(jsonData.message).to.eql(\"Patient created successfully\");\r
+
+      });\r
+
+      \r
+
+      pm.test(\"Response contains patient\", function () {\r
+
+      \    const jsonData = pm.response.json();\r
+
+      \    pm.expect(jsonData).to.have.property(\"patient\");\r
+
+      });"
+    language: text/javascript
+order: 2673981697763363

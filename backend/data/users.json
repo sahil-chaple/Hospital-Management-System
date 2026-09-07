@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": "USR001",
+      "name": "Admin User",
+      "email": "admin@hms.com",
+      "password": "$2b$12$FMRMDOe87zc.wOvu.Rl.dO7D8F7PPJuPVHtm.KaoDrm6SB.b6N4C2",
+      "role": "admin",
+      "createdAt": "2026-08-12T00:00:00"
+    },
+    {
+      "id": "USR002",
+      "name": "Dr. Sarah Johnson",
+      "email": "doctor@hms.com",
+      "password": "$2b$12$rgYVuFN.h.1TLZZEk4WtAuzfN2RKajh7ZAVXWpthKaMdKHRzp3b5O",
+      "role": "doctor",
+      "createdAt": "2026-08-12T00:00:00"
+    },
+    {
+      "id": "USR003",
+      "name": "John Patient",
+      "email": "patient@hms.com",
+      "password": "$2b$12$cbQp8nT4ozM7R9HSf7bS7.tF8lGXuPTTarY7HLrbgGIrOdH1nHmoi",
+      "role": "patient",
+      "createdAt": "2026-08-12T00:00:00"
+    },
+    {
+      "id": "USR004",
+      "name": "Receptionist",
+      "email": "reception@hms.com",
+      "password": "$2b$12$lnMjFVDkirUMH9NZuBxtkOPFGTd8IsB8NUiGeqhCj7gf4d6D4Wy8a",
+      "role": "receptionist",
+      "createdAt": "2026-08-12T00:00:00"
+    },
+    {
+      "id": "USR005",
+      "name": "Pharmacist",
+      "email": "pharmacy@hms.com",
+      "password": "$2b$12$4GGCmS9ZMINypuF8UwyTLe/G5H1S3aGGY7iDOi38BsfGuyM1.eYnC",
+      "role": "pharmacist",
+      "createdAt": "2026-08-12T00:00:00"
+    }
+  ]
+}

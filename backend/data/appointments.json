@@ -1,0 +1,40 @@
+{
+  "appointments": [
+    {
+      "id": "APT001",
+      "appointmentId": "APTQ1W2E3",
+      "patientId": "PAT001",
+      "doctorId": "DOC001",
+      "date": "2026-09-07",
+      "time": "09:00",
+      "reason": "Chest pain follow-up",
+      "status": "Scheduled",
+      "createdAt": "2026-08-12T00:00:00",
+      "updatedAt": "2026-08-12T00:00:00"
+    },
+    {
+      "id": "APT002",
+      "appointmentId": "APTR4T5Y6",
+      "patientId": "PAT002",
+      "doctorId": "DOC002",
+      "date": "2026-09-07",
+      "time": "10:30",
+      "reason": "Migraine checkup",
+      "status": "Confirmed",
+      "createdAt": "2026-08-12T00:00:00",
+      "updatedAt": "2026-08-12T00:00:00"
+    },
+    {
+      "id": "APT003",
+      "appointmentId": "APTU7I8O9",
+      "patientId": "PAT003",
+      "doctorId": "DOC003",
+      "date": "2026-09-07",
+      "time": "11:00",
+      "reason": "Child vaccination",
+      "status": "Scheduled",
+      "createdAt": "2026-08-12T00:00:00",
+      "updatedAt": "2026-08-12T00:00:00"
+    }
+  ]
+}

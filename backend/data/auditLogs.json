@@ -1,0 +1,220 @@
+{
+  "auditLogs": [
+    {
+      "id": "LOG3A2C6161",
+      "userId": "USR001",
+      "action": "LOGIN",
+      "timestamp": "2026-09-07T14:47:41.286512"
+    },
+    {
+      "id": "LOG874AD0B0",
+      "userId": "USR001",
+      "action": "PATIENT_CREATED",
+      "timestamp": "2026-09-07T14:52:22.735910"
+    },
+    {
+      "id": "LOG81ADC1AA",
+      "userId": "USR001",
+      "action": "PATIENT_UPDATED",
+      "timestamp": "2026-09-07T14:58:04.649848"
+    },
+    {
+      "id": "LOGF7E3AC5F",
+      "userId": "USR001",
+      "action": "PATIENT_DELETED",
+      "timestamp": "2026-09-07T15:00:25.939642"
+    },
+    {
+      "id": "LOG68C60F45",
+      "userId": "USR001",
+      "action": "LOGIN",
+      "timestamp": "2026-09-07T15:03:30.435938"
+    },
+    {
+      "id": "LOG1EC838AB",
+      "userId": "USR001",
+      "action": "PATIENT_CREATED",
+      "timestamp": "2026-09-07T15:05:04.883828"
+    },
+    {
+      "id": "LOG75432C47",
+      "userId": "USR001",
+      "action": "PATIENT_CREATED",
+      "timestamp": "2026-09-07T15:07:14.956106"
+    },
+    {
+      "id": "LOG4660DC27",
+      "userId": "USR001",
+      "action": "PATIENT_UPDATED",
+      "timestamp": "2026-09-07T15:07:40.249694"
+    },
+    {
+      "id": "LOGBDCFECC4",
+      "userId": "USR001",
+      "action": "PATIENT_UPDATED",
+      "timestamp": "2026-09-07T15:07:40.456905"
+    },
+    {
+      "id": "LOG85AA2476",
+      "userId": "USR001",
+      "action": "PATIENT_DELETED",
+      "timestamp": "2026-09-07T15:08:11.648732"
+    },
+    {
+      "id": "LOGB9FC3382",
+      "userId": "USR001",
+      "action": "LOGIN",
+      "timestamp": "2026-09-07T15:12:07.436880"
+    },
+    {
+      "id": "LOG7C44128D",
+      "userId": "USR001",
+      "action": "LOGIN",
+      "timestamp": "2026-09-07T15:13:33.830746"
+    },
+    {
+      "id": "LOG82DE4063",
+      "userId": "USR001",
+      "action": "PATIENT_CREATED",
+      "timestamp": "2026-09-07T15:13:34.368396"
+    },
+    {
+      "id": "LOG9ABBE51D",
+      "userId": "USR001",
+      "action": "PATIENT_CREATED",
+      "timestamp": "2026-09-07T15:15:32.231985"
+    },
+    {
+      "id": "LOGABE4B091",
+      "userId": "USR001",
+      "action": "PATIENT_CREATED",
+      "timestamp": "2026-09-07T15:15:32.567607"
+    },
+    {
+      "id": "LOG5AB749AD",
+      "userId": "USR001",
+      "action": "PATIENT_CREATED",
+      "timestamp": "2026-09-07T15:15:58.569742"
+    },
+    {
+      "id": "LOG72F4631D",
+      "userId": "USR001",
+      "action": "PATIENT_UPDATED",
+      "timestamp": "2026-09-07T15:16:46.503854"
+    },
+    {
+      "id": "LOGCE9701DF",
+      "userId": "USR001",
+      "action": "PATIENT_DELETED",
+      "timestamp": "2026-09-07T15:16:53.104833"
+    },
+    {
+      "id": "LOG4F851387",
+      "userId": "USR001",
+      "action": "LOGIN",
+      "timestamp": "2026-09-07T15:17:05.955019"
+    },
+    {
+      "id": "LOG3B2BAFC6",
+      "userId": "USR001",
+      "action": "PATIENT_CREATED",
+      "timestamp": "2026-09-07T15:17:06.408763"
+    },
+    {
+      "id": "LOGC810DEA8",
+      "userId": "USR001",
+      "action": "PATIENT_UPDATED",
+      "timestamp": "2026-09-07T15:17:06.573892"
+    },
+    {
+      "id": "LOGAA9BA2C6",
+      "userId": "USR001",
+      "action": "PATIENT_CREATED",
+      "timestamp": "2026-09-07T15:18:20.842017"
+    },
+    {
+      "id": "LOG652CD435",
+      "userId": "USR001",
+      "action": "PATIENT_DELETED",
+      "timestamp": "2026-09-07T15:18:34.590846"
+    },
+    {
+      "id": "LOG3AEE53DE",
+      "userId": "USR001",
+      "action": "PATIENT_CREATED",
+      "timestamp": "2026-09-07T15:18:55.650057"
+    },
+    {
+      "id": "LOG167DEB09",
+      "userId": "USR001",
+      "action": "PATIENT_DELETED",
+      "timestamp": "2026-09-07T15:19:31.942377"
+    },
+    {
+      "id": "LOGB8A1D03B",
+      "userId": "USR001",
+      "action": "LOGIN",
+      "timestamp": "2026-09-07T15:19:45.608314"
+    },
+    {
+      "id": "LOG247463D1",
+      "userId": "USR001",
+      "action": "PATIENT_CREATED",
+      "timestamp": "2026-09-07T15:19:46.136735"
+    },
+    {
+      "id": "LOG2E2D5689",
+      "userId": "USR001",
+      "action": "PATIENT_UPDATED",
+      "timestamp": "2026-09-07T15:19:46.310198"
+    },
+    {
+      "id": "LOGE1818436",
+      "userId": "USR001",
+      "action": "PATIENT_DELETED",
+      "timestamp": "2026-09-07T15:21:59.346259"
+    },
+    {
+      "id": "LOG12FA8742",
+      "userId": "USR001",
+      "action": "LOGIN",
+      "timestamp": "2026-09-07T15:22:08.510152"
+    },
+    {
+      "id": "LOGDF43FEAA",
+      "userId": "USR001",
+      "action": "PATIENT_CREATED",
+      "timestamp": "2026-09-07T15:22:09.079112"
+    },
+    {
+      "id": "LOG89F503FA",
+      "userId": "USR001",
+      "action": "PATIENT_CREATED",
+      "timestamp": "2026-09-07T15:22:20.648795"
+    },
+    {
+      "id": "LOG55F5FF88",
+      "userId": "USR001",
+      "action": "PATIENT_UPDATED",
+      "timestamp": "2026-09-07T15:22:36.080889"
+    },
+    {
+      "id": "LOG8AACCE91",
+      "userId": "USR001",
+      "action": "LOGIN",
+      "timestamp": "2026-09-07T15:22:48.108525"
+    },
+    {
+      "id": "LOGF1CEB9E9",
+      "userId": "USR001",
+      "action": "PATIENT_CREATED",
+      "timestamp": "2026-09-07T15:22:48.691183"
+    },
+    {
+      "id": "LOG865D7D26",
+      "userId": "USR001",
+      "action": "PATIENT_UPDATED",
+      "timestamp": "2026-09-07T15:22:48.919159"
+    }
+  ]
+}
